@@ -1,0 +1,86 @@
+# Career-Ops Profile Configuration — Kishore Kumar S
+
+candidate:
+  full_name: "Kishore Kumar S"
+  email: "kishorekumar619916@gmail.com"
+  phone: "+91 7708179480"
+  location: "Chennai, Tamil Nadu, India"
+  linkedin: "https://www.linkedin.com/in/kishore-kumar-s-9a1b4b1a3/"
+  portfolio_url: "https://kishore37sk.github.io/personal_website/"
+  github: "https://github.com/kishore37sk"
+  
+
+target_roles:
+  primary:
+    - "Data Analyst"
+    - "Senior Data Analyst"
+    - "Business Intelligence Analyst"
+    - "Data Engineer"
+  archetypes:
+    - name: "Data Analyst / BI Analyst"
+      level: "Mid / Senior"
+      fit: "primary"
+    - name: "Data Engineer"
+      level: "Mid"
+      fit: "secondary"
+    - name: "Analytics Engineer"
+      level: "Mid"
+      fit: "secondary"
+    - name: "Business Intelligence Developer"
+      level: "Mid / Senior"
+      fit: "primary"
+
+narrative:
+  headline: "Data Analyst who turns messy data into decisions — dashboards, pipelines, and Python automation"
+  exit_story: >
+    Started as a full-stack developer (Ruby on Rails), then pivoted fully into data.
+    At NielsenIQ, built dashboards used by 120+ employees and automated pipelines that
+    cut data errors by 25%. Comfortable with the full analytics stack — from SQL and
+    Snowflake to Power BI and Streamlit. Now targeting roles where data drives real
+    business outcomes, not just reporting for reporting's sake.
+  superpowers:
+    - "Power BI dashboard design that non-technical stakeholders actually use"
+    - "SQL data pipelines — cleaning, transforming, modeling at scale"
+    - "Python automation (Streamlit tools, VBA macros, Pareto analysis)"
+    - "Bridging analyst and developer worlds — understands both data and code"
+    - "Fast onboarding: trained team of 5, certified in PL-300, AWS, Databricks"
+  proof_points:
+    - name: "Sales Forecasting Model"
+      hero_metric: "95% forecast accuracy using Python + Excel, optimized inventory for a leading retailer"
+    - name: "Retailer Error Analysis (Pareto)"
+      hero_metric: "Identified top 20% errors causing 80% of inefficiencies, improved efficiency by 15%"
+    - name: "Employee Productivity Dashboard"
+      hero_metric: "Power BI dashboard tracking 120 employees in real time"
+    - name: "Data Error Reduction"
+      hero_metric: "Reduced data errors 25%, improving predictive accuracy by 35%"
+    - name: "VBA Automation"
+      hero_metric: "Automated repetitive tasks, cutting manual workload by 30%"
+    - name: "Streamlit Analytics Tool"
+      hero_metric: "Self-serve CSV upload, filter, visualize tool for non-technical users"
+
+compensation:
+  target_range: "₹8L–15L per annum"
+  currency: "INR"
+  minimum: "₹7L per annum"
+  location_flexibility: "Open to remote, hybrid, or on-site in Chennai / Bangalore / Hyderabad / Coimbatore"
+
+location:
+  country: "India"
+  city: "Avinashi, Tamil Nadu"
+  timezone: "IST (UTC+5:30)"
+  visa_status: "Indian citizen — no sponsorship needed for India roles"
+  relocation: "Open to relocating within India for the right role"
+
+deal_breakers:
+  - "Roles that are purely manual data entry with no analytical component"
+  - "No growth path — need clear progression to Senior / Lead Analyst"
+
+preferences:
+  work_type: "Hybrid or Remote preferred; open to on-site in major cities"
+  company_size: "Open to all — startups to enterprise"
+  sectors_of_interest:
+    - "FMCG / Retail analytics (current domain at NielsenIQ)"
+    - "Fintech / Banking analytics"
+    - "E-commerce"
+    - "SaaS / Tech companies"
+    - "Consulting / Analytics firms"
