@@ -406,6 +406,16 @@
     .proj-title { font-size: 1.3rem; font-weight: 700; letter-spacing: -.3px; margin-bottom: 5px; line-height: 1.2; }
     .proj-date  { font-size: .72rem; color: var(--muted); margin-bottom: 12px; }
     .proj-desc  { font-size: .81rem; color: var(--muted); line-height: 1.72; flex: 1; margin-bottom: 18px; }
+    .proj-highlight {
+      display: flex; align-items: flex-start; gap: 8px;
+      background: var(--green-bg); border: 1px solid var(--green-border);
+      border-radius: 10px; padding: 12px 14px; margin-bottom: 18px;
+      font-size: .76rem; color: #166534; line-height: 1.6;
+    }
+    .proj-highlight svg { flex-shrink: 0; margin-top: 1px; color: var(--green); }
+    .proj-highlight strong { color: var(--green); }
+    .proj-highlight a { color: var(--green); font-weight: 600; text-decoration: none; }
+    .proj-highlight a:hover { text-decoration: underline; }
     .proj-tech-label { font-size: .70rem; text-transform: uppercase; letter-spacing: 1.2px; color: var(--muted); margin-bottom: 8px; font-family: var(--mono); }
     .proj-tech-tags  { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 20px; }
     .proj-actions    { display: flex; gap: 8px; flex-wrap: wrap; }
@@ -921,6 +931,42 @@
   <section id="work">
     <h2 class="sec-head reveal">Featured Projects<span class="dot">.</span></h2>
     <p class="sec-sub reveal">Real websites built for real businesses — restaurants, fitness, services, and more.</p>
+
+    <!-- Project 0: Ignite Interior Decors -->
+    <div class="project-card reveal">
+      <div class="proj-mockup">
+        <div class="browser-chrome">
+          <div class="bc-dot r"></div><div class="bc-dot y"></div><div class="bc-dot g"></div>
+          <div class="bc-url">ignite interior decors · Interior Design Studio</div>
+        </div>
+        <div class="proj-screen">
+          <img src="Base image/ignite-interior-decors.png" alt="Ignite Interior Decors — Interior Design Studio"
+               onerror="this.style.display='none'; this.parentElement.style.background='linear-gradient(135deg,#1b140f,#2c2118,#0f3d24)';">
+        </div>
+      </div>
+      <div class="proj-info">
+        <div class="proj-tag">🏠 Interior Design Studio</div>
+        <h3 class="proj-title">Ignite Interior Decors — Interior Design Studio</h3>
+        <div class="proj-date">2026 · Multi-Page Business Website · Client Project</div>
+        <p class="proj-desc">A complete multi-page website for a modern home interior design studio — Home, About, Projects, and Services pages, a full-bleed hero gallery, and a floating WhatsApp enquiry button so leads convert straight from the page. Built for a real client, still live and in active use.</p>
+        <div class="proj-highlight">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+          <span><strong>Special mention:</strong> set up and verified the client's Google Business Profile end-to-end and now manage their social media handles — a real client, a genuinely happy one. <a href="https://share.google/AoeyKkdXpRiZFXg9i" target="_blank" rel="noopener">View Google Profile →</a></span>
+        </div>
+        <div class="proj-tech-label">BUILT WITH</div>
+        <div class="proj-tech-tags">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Responsive Design</span>
+          <span class="tag tag-green">Google Business Profile</span>
+          <span class="tag tag-green">Social Media Management</span>
+        </div>
+        <div class="proj-actions">
+          <a href="https://share.google/AoeyKkdXpRiZFXg9i" target="_blank" rel="noopener" class="btn btn-primary">📍 View Google Profile →</a>
+        </div>
+      </div>
+    </div>
 
     <!-- Project 1: Crunchy Clucks -->
     <div class="project-card reveal">
